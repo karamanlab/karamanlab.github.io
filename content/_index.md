@@ -1,65 +1,42 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
+title: ""
 date: 2022-10-24
 type: landing
 
 sections:
+
   - block: hero
     content:
-      title: |
-        Karaman
-        Language & Cognition Lab
+      title: ""
+      text: |
+        The **Karaman Language & Cognition Lab** conducts research on language acquisition, statistical learning, and cognitive development.  
+        
+        Our work combines experimental methods and interdisciplinary approaches to understand how humans learn, process, and represent language across development.
       image:
         filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Karaman Language & Cognition Lab** conducts research on language acquisition, statistical learning, and cognitive development. Our work combines experimental methods and interdisciplinary approaches to explore how humans learn and process language across development.
-  
+    design:
+      flip: true
+      columns: "2"
+
   - block: collection
     content:
       title: Latest News
-      subtitle:
-      text:
-      count: 5
+      count: 3
       filters:
         author: ''
         category: ''
         exclude_featured: false
         publication_type: ''
         tag: ''
-      offset: 0
       order: desc
       page_type: post
     design:
       view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      columns: "1"
 
   - block: collection
     content:
-      title: Latest Preprints
-      text: ""
+      title: Selected Publications
       count: 5
       filters:
         folders:
@@ -67,14 +44,13 @@ sections:
         publication_type: 'article'
     design:
       view: citation
-      columns: '1'
+      columns: "1"
 
   - block: markdown
     content:
-      title:
-      subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="Meet the Team →" %}}
     design:
-      columns: '1'
+      columns: "1"
+
 ---
