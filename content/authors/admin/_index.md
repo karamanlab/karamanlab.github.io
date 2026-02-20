@@ -52,3 +52,7 @@ highlight_name: true
 user_groups:
   - Lab Director
 ---
+
+I am an Assistant Professor of Psychology at Texas A&M University–Kingsville. My research focuses on language learning and cognition across development, with a particular emphasis on how learners extract patterns and structure from linguistic input.
+
+Using behavioral and experimental methods, I investigate language processing in children and adults and examine how statistical learning mechanisms support language acquisition.
